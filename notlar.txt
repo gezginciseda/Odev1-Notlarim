@@ -1,1 +1,118 @@
-Notlar buraya yazılsın
+Git Nedir? Komutları Nelerdir, Nasıl Kullanılır?
+
+Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemi aracıdır. 
+
+Terminal İçin Kullanılan Komutları Nelerdir?
+
+-> ls Komutu
+Ne işe yarar?: Bir dizindeki (klasördeki) dosya ve alt dizinleri listeler.
+
+Ne için kullanılır?: Çalıştığınız dizindeki içerikleri görmek için kullanılır.
+
+
+-> pwd Komutu
+Ne işe yarar?: Mevcut çalışma dizininin (current working directory) yolunu gösterir.
+
+Ne için kullanılır?: Şu anda hangi dizinde olduğunuzu öğrenmek için kullanılır.
+
+
+-> mkdir Komutu
+Ne işe yarar?: Yeni bir dizin (klasör) oluşturur.
+
+Ne için kullanılır?: Yeni bir klasör oluşturmak için kullanılır.
+
+
+-> cd Komutu
+Ne işe yarar?: Çalışma dizinini değiştirir.
+
+Ne için kullanılır?: Farklı bir dizine geçiş yapmak için kullanılır.
+
+
+->touch Komutu
+Ne işe yarar?: Yeni bir dosya oluşturur veya var olan bir dosyanın son erişim ve değiştirilme zamanını günceller.
+
+Ne için kullanılır?: Yeni bir dosya oluşturmak veya mevcut bir dosyanın tarih bilgisini değiştirmek için kullanılır.
+
+
+->rm Komutu
+Ne işe yarar?: Bir dosyayı siler.
+
+Ne için kullanılır?: Belirtilen dosyayı silmek için kullanılır.
+
+
+-> rm -rf Komutu
+Ne işe yarar?: Bir dizini ve içindeki tüm dosya ve alt dizinleri zorla siler.
+
+Ne için kullanılır?: Bir dizini ve tüm içeriğini silmek için kullanılır (çok dikkatli kullanılmalıdır, çünkü geri alınamaz bir işlemdir).
+
+
+->git Komutu
+Ne işe yarar?: Git versiyon kontrol sistemiyle etkileşime geçmenizi sağlar. Git komutlarını çalıştırarak depoları yönetebilir, commit'ler yapabilir, dallar oluşturabilir ve daha birçok işlem yapabilirsiniz.
+
+Ne için kullanılır?: Git komutlarını çalıştırarak proje yönetimini sağlamak için kullanılır.
+
+
+->git --version Komutu
+Ne işe yarar?: Yüklü olan Git sürümünü gösterir.
+
+Ne için kullanılır?: Sistemde yüklü olan Git'in sürüm bilgisini öğrenmek için kullanılır.
+
+
+->git status
+Ne işe yarar?: Git deposunun o anki durumunu gösterir.
+
+Ne için kullanılır?: Hangi dosyaların değiştiğini, hangi dosyaların sahneye alındığını (staged) ve hangilerinin alınmadığını görmek için.
+
+
+->git init
+Ne işe yarar?: Bulunduğun klasörü bir Git deposuna çevirir.
+
+Ne için kullanılır?: Yeni bir proje oluştururken Git ile versiyon takibi başlatmak için.
+
+
+->git add
+Ne işe yarar?: Değişiklik yaptığın dosyaları sahneye (staging area) alır.
+
+Ne için kullanılır?: Commit'e eklemek istediğin dosyaları seçmek için.
+
+
+->git add .
+Ne işe yarar?: Tüm değişiklik yapılan dosyaları sahneye alır.
+
+Ne için kullanılır?: Aynı anda birden fazla dosyayı commit'e hazırlamak için.
+
+
+->git commit -m "mesaj"
+Ne işe yarar?: Sahneye alınan (add ile seçilen) dosyaları kalıcı olarak kaydeder.
+
+Ne için kullanılır?: Yaptığın değişikliği açıklayan bir mesajla projeye kaydetmek için.
+
+
+->.gitignore dosyası
+Ne işe yarar?: Git’in takip etmesini istemediğin dosyaları belirtir.
+
+Ne için kullanılır?: Örneğin node_modules, .env, geçici veya büyük dosyaların commit edilmesini önlemek için.
+
+
+->git log
+Ne işe yarar?: Tüm commit geçmişini listeler.
+
+Ne için kullanılır?: Kim, ne zaman, ne mesajıyla değişiklik yapmış görmek için.
+
+
+->git branch
+Ne işe yarar?: Var olan dalları (branches) listeler, yeni dal oluşturabilir.
+
+Ne için kullanılır?: Farklı özellikler/işler üzerinde ayrı ayrı çalışmak için.
+
+
+->git switch 
+Ne işe yarar?: Farklı bir brancha geçiş yapar.
+
+Ne için kullanılır?: Başka bir dalda çalışmak için.
+
+
+->git merge
+Ne işe yarar?: Bir branch’in içeriğini mevcut branch’e birleştirir.
+
+Ne için kullanılır?: Örneğin, yeni-ozellik dalında yapılan işleri main dalına katmak için.
