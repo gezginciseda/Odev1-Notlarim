@@ -116,3 +116,17 @@ Ne için kullanılır?: Başka bir dalda çalışmak için.
 Ne işe yarar?: Bir branch’in içeriğini mevcut branch’e birleştirir.
 
 Ne için kullanılır?: Örneğin, yeni-ozellik dalında yapılan işleri main dalına katmak için.
+
+
+->git push
+Ne işe yarar?: Yerel depodaki değişiklikleri uzak depoya gönderir.
+
+Ne için kullanılır?: Yapılan commit'leri uzak depoya yollamak için kullanılır.
+
+
+->git push -u origin master (veya main)
+Ne işe yarar?
+master (veya main) adlı branch’i origin adlı uzak sunucuya gönderir ve bunu varsayılan bağlantı olarak ayarlar.
+
+Ne için kullanılır?
+Projeyi ilk kez GitHub’a gönderirken kullanılır. Böylece bir sonraki git push komutunda tekrar hedef belirtmek gerekmez.
